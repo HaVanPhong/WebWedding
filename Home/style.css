@@ -231,7 +231,9 @@ section {
 /* stop section */
 
 /* start footer */
-footer{
+
+/* css footer cho vào file ../chung/style */
+/* footer{
   display: flex;
 }
 .footer-left{
@@ -261,7 +263,7 @@ footer ul li {
 
 .fitem img{
   width: 70%;
-}
+} */
 
 
 
