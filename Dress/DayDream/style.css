@@ -1,0 +1,20 @@
+/* phần header ở file chung */
+
+/* section */
+section{
+  width: 80%;
+}
+.row-1{
+  width: 100%;
+  margin: 0 auto;
+  max-height: 600px;
+}
+.row-1 img{
+  width: 100%;
+  max-height: 350px;
+}
+
+
+
+
+
