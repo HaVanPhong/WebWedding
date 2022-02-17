@@ -1,0 +1,10 @@
+1. Status color:
+    info: #CEBEA7
+    success: #B19071
+    Warning: #000000
+    Error: #FFFFFF
+2. Color
+    Primary: #CEBEA7
+    Secondary: #B19071
+3. Black Colors
+    #505050

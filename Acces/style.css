@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 140px;
+  background-color: #cebea7;
+}
+
+.bx-menu {
+  font-size: 50px;
+}
+
+.bg-menu {
+  width: 366px;
+  height: 34px;
+  background-color: #dadce0;
+}
+
+.appointment {
+  text-decoration: underline;
+  padding: 0 20px;
+}
+
+.nav-header {
+  padding: 0 60px;
+}
+
+.menu {
+    height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+}
+
+/* -------------- */
+body {
+    background-color: #fcf6ed;
+}
+img {
+  width: 500px;
+  height: 600px;
+}
+
+.box-section-1 {
+  margin: auto;
+  text-align: center;
+}
+.box-section-1 > p {
+  width: 809px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.mid-img {
+  width: 1206px;
+  height: 632px;
+  padding: 20px 0;
+}
+
+.box-section-2 {
+  margin-top: 30px;
+}
+.box-section-2 > .title-section {
+  text-align: center;
+}
+.p-title {
+  color: #505050;
+  font-size: 20px;
+}
+
+.box-big {
+}
+.box-big > .box {
+  display: flex;
+  justify-content: center;
+  
+}
+.box-big > .box > div {
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ----------------- */
+footer {
+    display: flex;
+}
+footer .left {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cebea7;
+    padding: 50px 30px;
+}
+footer .left .box {}
+footer .left .box-1 {
+    height: 70px;
+    width: 140px;
+    background-color: #fcf6ed;
+}
+footer .right {
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer .right .ft-text {
+    letter-spacing: 10px;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+footer .right .email {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
