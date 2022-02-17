@@ -1,0 +1,36 @@
+/* err */
+.errorContent{
+  background-image: url(../../images/Appointment/verified.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.errorContent img{
+  width: 100%;
+}
+.destext{
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
+.errorContent h3{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.title-h{
+  margin-top: 10%;
+}
+.errorContent span{
+  padding: 10px;
+  width: 100px;
+  color: white;
+  margin: 100px auto;
+  border: solid white 1px;
+}

@@ -1,0 +1,18 @@
+/* verified */
+.verifiedContent{
+  background-image: url(../../images/Appointment/verified.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.verifiedContent img{
+  width: 100%;
+}
+.destext{
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+}
