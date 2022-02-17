@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+nav {
+    width: 100%;
+    height: 140px;
+    background-color: #cebea7;
+}
+
+.bx-menu {
+    font-size: 50px;
+}
+
+.bg-menu {
+    width: 366px;
+    height: 34px;
+    background-color: #dadce0;
+}
+
+.appointment {
+    text-decoration: underline;
+    padding: 0 20px;
+}
+
+.nav-header {
+    padding: 0 60px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+/* -------------- */
+
+.content-about {
+    width: 100%;
+    margin-top: 101px;
+}
+
+.about-img-box {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-bottom: 76px;
+}
+
+.about-img-box img {
+    width: 594px;
+    height: 594px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.about-img-box h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 144px;
+    width: 100%;
+}
+
+.about-content-main {
+    text-align: center;
+    font-size: 48px;
+    max-width: 974px;
+    margin: 0 auto;
+    margin-bottom: 146px;
+}
+
+.about-title {
+    font-size: 24px;
+    text-align: center;
+    max-width: 1029px;
+    margin: 0 auto;
+    margin-bottom: 216px;
+}
+
+/* ------------- */
+
+.content-band {
+    width: 100%;
+}
+
+.band-heading {
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+.band-heading .band-title {
+    font-size: 48px;
+}
+
+.band-heading .heading {
+    font-size: 70px;
+}
+
+.band-main {
+    display: flex;
+}
+
+.band-main img {
+    width: 900;
+    height: 1400px;
+}
+
+.band-main p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 102px;
+}
+
+/* ---------- */
+footer {
+    display: flex;
+}
+
+footer .left {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cebea7;
+    padding: 50px 30px;
+}
+
+footer .left .box {}
+
+footer .left .box-1 {
+    height: 70px;
+    width: 140px;
+    background-color: #fcf6ed;
+}
+
+.box ul li {
+    margin: 15px;
+}
+
+footer .right {
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer .right .ft-text {
+    letter-spacing: 10px;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+footer .right .email {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
