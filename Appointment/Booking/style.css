@@ -1,0 +1,187 @@
+:root{
+  --bg-color:  #F6EBD7;
+  --secondary-color: #b19071;
+}
+.row-1-content{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: var(--bg-color);
+  padding: 10px;
+}
+
+.row-1-content-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+}
+.row-1-content-right{
+  width: 50%;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1-content-left img {
+  width: 100%;
+  margin: auto 0;
+}
+.tp{
+  padding-top: 5;
+}
+.th{
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.row-1-content-right-span{
+  border: solid black 2px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.container{
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  height: 350px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.date-title{
+  text-align: start;
+  text-indent: 5%;
+  margin-top: 10px;
+}
+
+.row-1-time{
+  display: flex;
+}
+
+
+/* date */
+.month-year{
+  display: flex;
+  justify-content: space-between;
+}
+.element{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  color: #666;
+  /* padding: 5px; */
+  width: 13%;
+  text-align: start;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.week{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.day{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.day .element{
+}
+
+.isSelect{
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+.time-ele{
+  border: solid rgb(112, 109, 109) 1px;
+  padding: 10px;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  width: 30%;
+  height: 20px;
+  margin: 0 auto;
+}
+.time{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  justify-items: center;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+.timeSelect, .purposeSelect {
+  background-color: var(--secondary-color);
+}
+
+/* purpose */
+.bodyPurpose{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.purpose{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+}
+.title-text{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #666;
+  font-size: 16px;
+  width: 100%;
+}
+
+.purpose-number{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.purpose-number span{
+  padding: 10px;
+  border: solid #333 1px;
+}
+
+.purpose-min-max{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* client infor */
+.infor{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.infor input{
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  height: 20px;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+.title-text-purpose{
+  text-align: start;
+  font-family: 'Courier New', Courier, monospace;
+  color: #666;
+  font-size: 16px;
+  width: 100%;
+}
+
+.row-1-content-right-span{
+  cursor: pointer;
+}
+

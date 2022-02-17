@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Login</title>
+  <link rel="stylesheet" href="../chung/style.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -87,9 +88,25 @@
           </li>
         </ul>
       </div>
-      <p class="title-p">best seller</p>
-      <h1 class="title-h">Popular Categories</h1>
-      <img src="../images/home/banner1.jpg" alt="">
+      <div class="content">
+        <p class="title-p">Welcom back</p>
+        <h1 class="title-h">
+          LOGIN
+        </h1>
+        <form action="../Errror/index.html" method="GET" id="form">
+          <label for="username">Username</label>
+          <br>
+          <input type="text" name="" id="username">
+          <br>
+          <label for="password">Password</label>
+          <br>
+          <input type="text" name="" id="password">
+          <p class="forgotpass"><b><a href="../Reset/index.html" style="text-decoration: none; color: black;">forgot your password</a></b></p>
+          <div class="footerForm">
+            <span class="signin" id="btnSignin">SIGN IN <a href="" id="btn"></a></span>
+          </div>
+        </form>
+      </div>
     </div>
   </section>
 
@@ -102,7 +119,7 @@
         <h4>LEARN MORE</h4>
         <ul>
           <li>About Us</li>
-          <li>Contact</li>
+          <li><a href="../Contact/index.html">Contact</a></li>
           <li>Size Guide</li>
         </ul>
       </div>
@@ -126,4 +143,5 @@
 
 </body>
 <script src="../../Home/js.js"></script>
+<script src="./js.js"></script>
 </html>

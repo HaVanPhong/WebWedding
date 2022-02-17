@@ -1,0 +1,48 @@
+
+.content{
+  padding: 50px;
+  background-color: #EBEBEB;
+}
+
+.title-h{
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+}
+
+form{
+  width: 50%;
+  margin: 0 auto;
+}
+form label{
+  font-family: 'Courier New', Courier, monospace;
+}
+form input{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 20px;
+  height: 30px;
+  background-color: #EBEBEB;
+}
+.forgotpass{
+  text-align: center;
+} 
+.footerForm{
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.signin{
+  border: solid #333 1px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: 100;
+  width: 20%;
+  margin: 0 auto;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
