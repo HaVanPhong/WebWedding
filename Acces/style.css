@@ -31,12 +31,12 @@ nav {
   padding: 0 60px;
 }
 
-.menu {
+/* .menu {
     height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 a {
   color: black;
@@ -91,7 +91,7 @@ img {
     text-transform: uppercase;
 }
 
-/* ----------------- */
+-----------------
 footer {
     display: flex;
 }
