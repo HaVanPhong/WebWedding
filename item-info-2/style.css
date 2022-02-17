@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+nav {
+    width: 100%;
+    height: 140px;
+    background-color: #cebea7;
+}
+
+.bx-menu {
+    font-size: 50px;
+}
+
+.bg-menu {
+    width: 366px;
+    height: 34px;
+    background-color: #dadce0;
+}
+
+.appointment {
+    text-decoration: underline;
+    padding: 0 20px;
+}
+
+.nav-header {
+    padding: 0 60px;
+}
+
+.menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    color: black;
+}
+
+/* ------------- */
+
+.main-heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-heading img {
+    width: 593px;
+    height: 1115px;
+    object-fit: cover;
+}
+
+.pick-color {
+    padding: 481px 242px;
+    text-align: center;
+}
+
+.pick-color .title {
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+
+.pick-color .desc {
+    font-size: 36px;
+    margin-bottom: 22px;
+}
+
+.circle-color {
+    display: flex;
+    align-items: center;
+}
+
+.circle-color .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    margin: 0 10px;
+}
+
+.yellow {
+    background-color: #B4B3AC;
+}
+
+.gray {
+    background-color: #CBB099;
+}
+
+.black-gray {
+    background-color: #EBE8E2;
+}
+
+.gray-opa {
+    background-color: #B7B1B5;
+}
+
+.content-main {
+    padding: 332px 62px;
+    text-align: center;
+}
+
+.desc-content {
+    margin-bottom: 37px;
+}
+
+.desc-content h2 {
+    margin-bottom: 37px;
+}
+
+/* ---------------- */
+
+.product {
+    width: 100%;
+    margin-bottom: 142px;
+}
+
+.product-heading {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.product-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box {
+    
+    text-align: center;
+}
+
+.img-box img {
+    margin-bottom: 31px;
+    width: 440px;
+    height: 600px;
+    object-fit: cover;
+}
+
+/* ---------- */
+footer {
+    display: flex;
+}
+
+footer .left {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cebea7;
+    padding: 50px 30px;
+}
+
+footer .left .box {}
+
+footer .left .box-1 {
+    height: 70px;
+    width: 140px;
+    background-color: #fcf6ed;
+}
+
+.box ul li {
+    margin: 15px;
+}
+
+footer .right {
+    width: 45%;
+    padding: 40px 0;
+    text-align: center;
+    background-color: white;
+}
+
+footer .right .ft-text {
+    letter-spacing: 10px;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+footer .right .email {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
