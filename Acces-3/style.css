@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 140px;
+  background-color: #cebea7;
+}
+
+.bx-menu {
+  font-size: 50px;
+}
+
+.bg-menu {
+  width: 366px;
+  height: 34px;
+  background-color: #dadce0;
+}
+
+.appointment {
+  text-decoration: underline;
+  padding: 0 20px;
+}
+
+.nav-header {
+  padding: 0 60px;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: black;
+}
+
+/* -------------- */
+body {
+  background-color: #fcf6ed;
+}
+img {
+  width: 100%;
+  height: 600px;
+}
+
+.box-section-1 {
+  margin: auto;
+  text-align: center;
+}
+.box-section-1 > p {
+  width: 809px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.mid-img {
+  width: 1206px;
+  height: 632px;
+}
+
+.box-section-2 {
+  margin-top: 30px;
+}
+
+.box-section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.box-section-2 .box {
+  width: 32%;
+}
+.box-section-2 .box-2 {
+  width: 64%;
+}
+.box-section-2 .box-3 {
+  text-align: left;
+  padding: 200px 20px;
+}
+
+.box-section-3 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-section-3 .box {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-section-4 {
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.box-section-4 h1 {text-align: center;}
+.box-section-4 .box-big {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  text-align: center;
+}
+.box-section-4 .box-big .box {
+
+}
+.box-section-4 .box-big .box img {}
+.btn {
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+/* ----------------- */
+footer {
+  display: flex;
+}
+footer .left {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #cebea7;
+  padding: 50px 30px;
+}
+footer .left .box {
+}
+footer .left .box-1 {
+  height: 70px;
+  width: 140px;
+  background-color: #fcf6ed;
+}
+footer .right {
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  background-color: white;
+}
+
+footer .right .ft-text {
+  letter-spacing: 10px;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+footer .right .email {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid black;
+}
