@@ -36,7 +36,7 @@ font-family: 'Playfair Display', serif;
 /* start header */
 header {
   width: 100%;
-  height: 100px;
+  height: 70px;
   padding: 30px;
   box-sizing: border-box;
   display: flex;
@@ -45,7 +45,8 @@ header {
 }
 
 .search input {
-  width: 500px;
+  width: 600px;
+  margin-left: 140px;
 }
 
 .rmenu a {

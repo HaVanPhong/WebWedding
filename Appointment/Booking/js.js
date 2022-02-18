@@ -1,7 +1,7 @@
 let now= new Date();
 let day= now.getDate();
 
-let days= document.getElementsByClassName("dayele");
+let days= document.querySelectorAll(".dayele span");
 let daySelect= document.getElementsByClassName("isSelect");
 
 

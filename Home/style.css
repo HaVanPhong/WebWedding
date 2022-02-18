@@ -31,9 +31,9 @@ header {
   background-color: var(--primary-color);
 }
 
-.search input {
+/* .search input {
   width: 400px;
-}
+} */
 
 .rmenu a {
   text-decoration: none;
@@ -78,7 +78,7 @@ section {
   width: 100%;
   overflow: hidden;
   height: 100%;
-  max-height: 600px;
+  max-height: 800px;
   position: relative;
 }
 
