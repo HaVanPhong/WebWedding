@@ -68,6 +68,8 @@ a {
 .content .content-img {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
 }
 
 .content-img .img-box {
@@ -94,15 +96,20 @@ a {
 }
 
 .magic-img .img-box {
-    height: 1382px;
+    height: 100%;
     object-fit: cover;
+    overflow: hidden;
 }
 
 .magic-img-box {
     margin-top: 22px;
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
 }
+
+
 
 .magic-img-box .img-box {
     width: 593px;
@@ -205,10 +212,12 @@ a {
 
 .follow-img-box {
     display: flex;
+    width: 100%;
+    overflow: hidden;
 }
 
 .follow-img-box .img-box {
-    width: 385px;
+    width: 20%;
     height: 500px;
     object-fit: cover;
 }
